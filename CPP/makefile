@@ -72,3 +72,4 @@ clean:
 cleanall:
 	rm -f $(TARGET) $(OBJ_FILES) $(OBJFORT_90_FILES) $(OBJFORT_77_FILES) $(DEP_FILES) *.o *.mod *.exe
 
+Interactions/chp/chp-set.o: Interactions/chp/chiral-twobody-potentials.o
