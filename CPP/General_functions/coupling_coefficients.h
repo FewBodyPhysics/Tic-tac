@@ -9,7 +9,9 @@
 #include <gsl/gsl_complex_math.h>
 #include <gsl/gsl_errno.h>
 #include <gsl/gsl_roots.h>
-#include <gsl/gsl_sf.h>
+#include <gsl/gsl_sf_coupling.h>
+#include <gsl/gsl_sf_legendre.h>
+#include <gsl/gsl_sf_pow_int.h>
 
 double clebsch_gordan(int two_j1, int two_j2, int two_j3,
 					  int two_m1, int two_m2, int two_m3);

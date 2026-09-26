@@ -25,7 +25,9 @@
 #include <gsl/gsl_complex_math.h>
 #include <gsl/gsl_errno.h>
 #include <gsl/gsl_roots.h>
-#include <gsl/gsl_sf.h>
+#include <gsl/gsl_sf_coupling.h>
+#include <gsl/gsl_sf_legendre.h>
+#include <gsl/gsl_sf_pow_int.h>
 
 /* Time-keeping modules */
 #include <chrono>

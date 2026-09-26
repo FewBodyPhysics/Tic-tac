@@ -1,2 +1,5 @@
-.o
+*.o
+*.mod
+build.log
 run
+Output
